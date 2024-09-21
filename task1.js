@@ -1,4 +1,4 @@
-// 7) BACDE
+// 9) BCEAD
 
 console.log('Task 1')
 
@@ -15,8 +15,10 @@ let A = 1,
 
 printResult('before', A, B, C, D, E)
 
-const tempB = B
-B = A
-A = tempB
-
+const tempA = A
+A = B
+B = C
+C = E
+E = D
+D = tempA
 printResult('after', A, B, C, D, E)

@@ -1,10 +1,10 @@
-// 7) circle, perimeter
+// 9) circle, diameter
 
 console.log('Task 2')
 
-const calcCirclePerimeter = radius => 2 * Math.PI * radius
+const calcDiameter = radius => 2 * radius
 
 const radius = 5
 
 console.log(`Radius: ${radius}`)
-console.log(`Perimeter: ${calcCirclePerimeter(radius)}`)
+console.log(`Diameter: ${calcDiameter(radius)}`)
