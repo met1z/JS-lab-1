@@ -11,3 +11,4 @@ const lX = 3, lY = 4
 const result = isPointIn(pX, pY, lX, lY)
 
 console.log(`Point (${pX}, ${pY}) is ${result ? '' : 'not '}in the intersection.`)
+console.log(`Point (${pX}, ${pY}) is ${result ? '' : 'not '}in the intersection.`)
